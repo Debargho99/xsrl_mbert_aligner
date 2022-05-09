@@ -1,6 +1,6 @@
 import argparse
-from pre_process.CoNLL_Annotations import read_conll, CoNLLUP_Token, CoNLL09_Token
-from pre_process.utils_prep import get_bool_value
+from CoNLL_Annotations import read_conll, CoNLLUP_Token, CoNLL09_Token
+from utils_prep import get_bool_value
 
 
 def CoNLLUP_to_09(in_filename, out_filename):
