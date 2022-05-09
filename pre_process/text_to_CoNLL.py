@@ -6,8 +6,8 @@ This file Generates CoNLL Templates from Plain text files (one sentence per line
 """
 
 import argparse
-from pre_process.CoNLL_Annotations import CoNLLUP_Token_Template
-import pre_process.utils_prep as utils_prep
+from CoNLL_Annotations import CoNLLUP_Token_Template
+import utils_prep as utils_prep
 
 if __name__ == "__main__":
     """
